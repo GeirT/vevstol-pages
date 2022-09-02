@@ -5,7 +5,8 @@ keywords: vevstol stativ skralle vevfot hovel veving husflid nodland vev produks
 categories: product
 ---
 
-<img src="<%= relative_url '/images/image09_thumb.jpg' %>" alt="Hovler" />
+<img src="<%= relative_url '/images/image09_thumb.jpg' %>"
+     alt="Stativ for billedvevramme" />
 
 <p class="block">
   Hovelstativ brukes for lagring av hovler og skaftelåser, og det kan

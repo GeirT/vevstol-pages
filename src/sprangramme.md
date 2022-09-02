@@ -84,4 +84,21 @@ categories: product
   Les også <a href="bruksanvisning_sprangramme">bruksanvisning for sprangramme</a>
 </p>
 
-TODO: ul.top-spacer-medium = render 'sprangramme_bilder'
+<div class="columns">
+  <div class="column">
+    <img src="<%= relative_url '/images/sprangramme_justering_thumb.jpg' %>"
+         alt="Detalj av toppen. Viser strammeskruer og fastsying til stang." />
+
+    <img src="<%= relative_url '/images/standard_sprangramme_75_cm_bred_thumb.jpg' %>"
+         alt="Dette er en 75 cm bred ramme som er gjort klar til bregding." />
+
+    <img src="<%= relative_url '/images/sprangramme_forlenget_thumb.jpg' %>"
+         alt="Standard ramme er skjøtt til effektiv starthøyde 175 cm." />
+
+    <img src="<%= relative_url '/images/veske_til_sprangramme_thumb.jpg' %>"
+         alt="Sprangramme er demontert og fraktes i hendig veske. Arbeidet sitter på stenger slik det var ved demonteringen." />
+
+    <img src="<%= relative_url '/images/veske_innvendig_thumb.jpg' %>"
+         alt="Det er sydd egne poser for smådeler og stenger med arbeid." />
+  </div>
+</div>

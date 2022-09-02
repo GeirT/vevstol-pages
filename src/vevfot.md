@@ -80,4 +80,7 @@ categories: product
 
 <h2 class="is-size-2">Se video av vevfoten</h2>
 
-TODO: http://www.youtube.com/v/kJSbNoJ9Z00
+<object width="425" height="350">
+  <param name="movie" value="http://www.youtube.com/v/kJSbNoJ9Z00" />
+  <embed src="http://www.youtube.com/v/kJSbNoJ9Z00" type="application/x-shockwave-flash" width="425" height="350" />
+</object>

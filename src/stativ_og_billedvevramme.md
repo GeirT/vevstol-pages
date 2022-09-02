@@ -5,7 +5,8 @@ keywords: vevstol stativ skralle vevfot hovel veving husflid nodland vev produks
 categories: product
 ---
 
-<img src="<%= relative_url '/images/image07_thumb.jpg' %>" alt="Stativ" />
+<img src="<%= relative_url '/images/image07_thumb.jpg' %>"
+     alt="Stativ for billedvevramme" />
 
 <p class="block">
   Stativet er utført i elforzinket stål og gulkromatisert.
@@ -51,6 +52,8 @@ categories: product
 </p>
 
 <p class="block">
-  Les også [bruksanvisning for billedvevramme](bruk_billedvevramme)
-  og [informasjon til billedvevere](info_billedvevere).
+  Les også
+  <a href="<%= relative_url 'bruk_billedvevramme' %>">bruksanvisning for billedvevramme</a>
+  og
+  <a href="<%= relative_url 'info_billedvevere' %>">informasjon til billedvevere</a>.
 </p>

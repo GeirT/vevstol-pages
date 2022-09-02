@@ -5,7 +5,8 @@ keywords: vevstol skralle stativ vevfot hovel veving husflid nodland vev produks
 categories: product
 ---
 
-<img src="<%= relative_url '/images/image06_thumb.jpg' %>" alt="Skralle" />
+<img src="<%= relative_url '/images/image06_thumb.jpg' %>"
+     alt="Glimåkravev sveipes med Skralle som er montert på fot" />
 
 <p class="block">
   Skralle er utført i elforzinket stål og gulkromatisert.
@@ -66,7 +67,7 @@ categories: product
 
 <h2 class="is-size-2">Se video av skrallen</h2>
 
-TODO:
-object[width="425" height="350"]
-  param[name="movie" value="http://www.youtube.com/v/dLfR0z1Q27Q"]
-  embed[src="http://www.youtube.com/v/dLfR0z1Q27Q" type="application/x-shockwave-flash" width="425" height="350"]
+<object width="425" height="350">
+  <param name="movie" value="http://www.youtube.com/v/dLfR0z1Q27Q" />
+  <embed src="http://www.youtube.com/v/dLfR0z1Q27Q" type="application/x-shockwave-flash" width="425" height="350" />
+</object>
