@@ -53,7 +53,7 @@ categories: product
 
 <p class="block">
   Les også
-  <a href="<%= relative_url 'bruk_billedvevramme' %>">bruksanvisning for billedvevramme</a>
+  <a href="<%= relative_url 'bruksanvisning_billedvevramme' %>">bruksanvisning for billedvevramme</a>
   og
   <a href="<%= relative_url 'info_billedvevere' %>">informasjon til billedvevere</a>.
 </p>

@@ -81,7 +81,8 @@ categories: product
 </div>
 
 <p class="block">
-  Les også <a href="bruksanvisning_sprangramme">bruksanvisning for sprangramme</a>
+  Les også
+  <a href="<%= relative_url 'bruksanvisning_sprangramme' %>">bruksanvisning for sprangramme</a>
 </p>
 
 <div class="columns">
