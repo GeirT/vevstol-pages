@@ -47,7 +47,8 @@ categories: product
 </p>
 
 <img src="<%= relative_url '/images/rammer_og_stativ_thumb.jpg' %>"
-     alt="Rammer og stativ." />
+     alt="Rammer og stativ."
+     class="image-l" />
 
 <p class="block">
   På bilde er 85 cm ramme satt inn i stativ. 120 cm og 65 cm ramme står med

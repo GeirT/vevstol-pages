@@ -10,7 +10,8 @@ categories: product
 <p class="block">Fra Ingjerd Knoph Andreassen</p>
 
 <img src="<%= relative_url '/images/skumgummi_holder_tegning_thumb.jpg' %>"
-     alt="Tips 1 Billedvev - Skumgummi holder tegning" />
+     alt="Tips 1 Billedvev - Skumgummi holder tegning"
+     class="image-l" />
 
 <p class="block">
   En fin måte å klemme tegningen inn mot renningen på, er å bruke skumgummi.
@@ -36,7 +37,8 @@ categories: product
 <p class="block">Fra Solveig Øvergaard</p>
 
 <img src="<%= relative_url '/images/papir_mot_skarpe_kanter_thumb.jpg' %>"
-     alt="Tips 2 Billedvev - Papir mot skarpe kanter" />
+     alt="Tips 2 Billedvev - Papir mot skarpe kanter"
+     class="image-r" />
 
 <p class="block">
   Når du flytter fram, kan noen rammer ha så skarpe kanter

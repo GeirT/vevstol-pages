@@ -36,7 +36,8 @@ categories: product
 <h2 class="is-size-2">Tips 3 Vevstol - Svevende veksler</h2>
 
 <img src="<%= relative_url '/images/image10_thumb.jpg' %>"
-     alt="Tips 3 Vevstol - Svevende veksler" />
+     alt="Tips 3 Vevstol - Svevende veksler"
+     class="image-r" />
 
 <p class="block">
   Noe som kan forenkle vevingen er å bruke svevende veksler.
@@ -47,6 +48,10 @@ categories: product
   ved hjelp av snorer i hver ende av vekselen.
   Det er en større prosess hvor det må lages mange nye deler.
 </p>
+
+<img src="<%= relative_url '/images/image11_thumb.jpg' %>"
+     alt="Tips 3 Vevstol - Kroker i skaft og veksler"
+     class="image-l" />
 
 <p class="block">
   En overveksel kan veldig enkelt klargjøres til svevende.
@@ -61,8 +66,6 @@ categories: product
   kan du skru inn kroker til snorene, se medfølgende bilde.
 </p>
 
-<img src="<%= relative_url '/images/image11_thumb.jpg' %>"
-     alt="Tips 3 Vevstol - Kroker i skaft og veksler" />
 
 <p class="block">Du oppnår følgende fordeler:</p>
 
@@ -285,7 +288,8 @@ categories: product
 <h2 class="is-size-2">Tips 8 Vevstol - Tilrettelegging for svake armer</h2>
 
 <img src="<%= relative_url '/images/tilrettelagt_arbeid_thumb.jpg' %>"
-     alt="Tips 8 Vevstol - Tilrettelegging for svake armer" />
+     alt="Tips 8 Vevstol - Tilrettelegging for svake armer"
+     class="image-r" />
 
 <p class="block">
   Det trengs litt muskelkraft for å få til et hardt tilslag.
@@ -304,7 +308,8 @@ categories: product
 <h2 class="is-size-2">Tips 9 Vevstol - Hvor mye renning er det igjen?</h2>
 
 <img src="<%= relative_url '/images/bendelbaand_thumb.jpg' %>"
-     alt="Tips 9 Vevstol - Hvor mye renning er det igjen?" />
+     alt="Tips 9 Vevstol - Hvor mye renning er det igjen?"
+     class="image-l" />
 
 <p class="block">
   Det kan ofte være vanskelig å beregne eller ha oversikt over
@@ -317,10 +322,11 @@ categories: product
   kan det være behov for lengre bånd?
 </p>
 
-<h2 class="is-size-2">Tips 10 Vevstol - Vedlikehold av ratt</h2>
+<h2 class="is-size-2 clear">Tips 10 Vevstol - Vedlikehold av ratt</h2>
 
 <img src="<%= relative_url '/images/defekt_ratt_thumb.jpg' %>"
-     alt="Tips 10 Vevstol - Vedlikehold av ratt" />
+     alt="Tips 10 Vevstol - Vedlikehold av ratt"
+     class="image-r" />
 
 <p class="block">
   På det tilhørende bilde kan du se at rattet har gått i stykker.
@@ -344,7 +350,8 @@ categories: product
 <h2 class="is-size-2">Tips 11 Vevstol - Beskytte renningen mot slitasje</h2>
 
 <img src="<%= relative_url '/images/beskytte_renning_thumb.jpg' %>"
-     alt="Tips 11 Vevstol - Beskytte renningen mot slitasje" />
+     alt="Tips 11 Vevstol - Beskytte renningen mot slitasje"
+     class="image-l" />
 
 <p class="block">
   På steder hvor det er mye trafikk forbi strekkbommen,

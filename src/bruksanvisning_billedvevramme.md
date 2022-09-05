@@ -31,7 +31,8 @@ categories: product
 </p>
 
 <img src="<%= relative_url '/images/85cm_ramme_i_stativ_thumb.jpg' %>"
-     alt="85 cm ramme i stativ. Se meterstokk som ligger i ramme." />
+     alt="85 cm ramme i stativ. Se meterstokk som ligger i ramme."
+     class="image-r" />
 
 <p class="block">
   Rammer lages med 46 - 60 - 85 - og 120 cm vevbredde som standard, og
@@ -66,7 +67,8 @@ categories: product
 </p>
 
 <img src="<%= relative_url '/images/detalj_festeplate_stativ_thumb.jpg' %>"
-     alt="Detalj av festeplate på stativ." />
+     alt="Detalj av festeplate på stativ."
+     class="image-l" />
 
 <p class="block">
   Ved montering i stativ må låseplate låses med stjerneratt i vannrett

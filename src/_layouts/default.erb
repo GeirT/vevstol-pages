@@ -2,6 +2,21 @@
 <html lang="<%= site.locale %>">
   <head>
     <%= render "head", metadata: site.metadata, title: resource.data.title %>
+    <style>
+      .image-r {
+        float: right;
+        margin-left: 10px;
+        margin-bottom: 10px;
+      }
+      .image-l {
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 10px;
+      }
+      .clear {
+        clear: both;
+      }
+    </style>
   </head>
 
   <body class="<%= resource.data.layout %> <%= resource.data.page_class %>">
@@ -12,7 +27,7 @@
     </div>
 
     <div class="columns">
-      <div class="column is-one-quarter">
+      <div class="column is-narrow">
         <%= render "sidebar" %>
       </div>
       <div class="column">

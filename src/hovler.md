@@ -6,7 +6,8 @@ categories: product
 ---
 
 <img src="<%= relative_url '/images/image09_thumb.jpg' %>"
-     alt="Stativ for billedvevramme" />
+     alt="Stativ for billedvevramme"
+     class="image-l" />
 
 <p class="block">
   Hovelstativ brukes for lagring av hovler og skaftelåser, og det kan

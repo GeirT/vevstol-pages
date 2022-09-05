@@ -6,7 +6,8 @@ categories: product
 ---
 
 <img src="<%= relative_url '/images/image06_thumb.jpg' %>"
-     alt="Glimåkravev sveipes med Skralle som er montert på fot" />
+     alt="Glimåkravev sveipes med Skralle som er montert på fot"
+     class="image-r" />
 
 <p class="block">
   Skralle er utført i elforzinket stål og gulkromatisert.

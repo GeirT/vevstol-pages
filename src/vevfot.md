@@ -5,7 +5,9 @@ keywords: vevstol vevfot stativ skralle hovel veving husflid nodland vev produks
 categories: product
 ---
 
-<img src="<%= relative_url '/images/vevfot_002_thumb.jpg' %>" alt="Vevfot" />
+<img src="<%= relative_url '/images/vevfot_002_thumb.jpg' %>"
+     alt="Vevfot"
+     class="image-r" />
 
 <p class="block">
   Vevfot er utført i elforzinket stål og gulkromatisert.
@@ -30,7 +32,9 @@ categories: product
   Slike løsninger har flere uheldige konsekvenser.
 </p>
 
-<img src="<%= relative_url '/images/vevfot_003_thumb.jpg' %>" alt="Vevfot" />
+<img src="<%= relative_url '/images/vevfot_003_thumb.jpg' %>"
+     alt="Vevfot"
+     class="image-r" />
 
 <div class="content">
   <ul>

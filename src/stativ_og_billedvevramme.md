@@ -6,7 +6,8 @@ categories: product
 ---
 
 <img src="<%= relative_url '/images/image07_thumb.jpg' %>"
-     alt="Stativ for billedvevramme" />
+     alt="Stativ for billedvevramme"
+     class="image-r" />
 
 <p class="block">
   Stativet er utført i elforzinket stål og gulkromatisert.
