@@ -26,6 +26,6 @@ const outputFolder = "output"
 // ```
 // const esbuildOptions = { publicPath: "/my_subfolder/_bridgetown/static" }
 // ```
-const esbuildOptions = {}
+const esbuildOptions = { publicPath: "/vevstol-pages/_bridgetown/static" }
 
 build(outputFolder, esbuildOptions)
