@@ -2,19 +2,20 @@
 # Feel free to add content and custom Front Matter to this file.
 
 layout: default
+title: Forsiden
+keywords: vevstol veving husflid nodland vev vevfot produksjon stativ
+
 ---
 
-# Welcome to your new Bridgetown website.
+<h2 class="is-size-2">Velkommen til vevstol.no</h2>
 
-You can learn more about how to build and deploy your new website by reading the  [Bridgetown documentation](https://www.bridgetownrb.com/docs).
+<img src="<%= relative_url '/images/image04_medium.jpg' %>"
+     alt="Skralle på vev"
+     class="image-r" />
 
-You can choose a [theme](https://github.com/topics/bridgetown-theme) or add some [plugins](https://www.bridgetownrb.com/plugins/) to get started quickly.
+<p class="block">
+  Nodland vevstol legger ut tips om vev, billedvev, sprang, og ruteark og
+  produserer billedvevrammer, spiraler og stativ for billedvevrammer,
+  sprangramme med mange finesser og sveipeskralle og vevfot for vevstol.
+</p>
 
-Be sure to check out the [Bridgetown Cards](https://bridgetown.cards) community site for helpful tips & tricks.
-
-If you run into any issues or have additional questions, please join us in our [Discord chat](https://discord.gg/4E6hktQGz4) or in [GitHub discussions](https://github.com/bridgetownrb/bridgetown/discussions).
-
-_Have fun and **good luck**!_
-
-
-----
