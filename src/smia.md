@@ -56,7 +56,7 @@ categories: product
 <p class="block clear">
   <%= render "cool_image",
     src: 'smia_inne',
-    size: '400x304,
+    size: '400x304',
     thumb_size: 'medium',
     desc: 'Inne i smia',
     thumb_class: 'image-l' %>
