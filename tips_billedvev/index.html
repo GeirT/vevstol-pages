@@ -9,7 +9,36 @@
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+      integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"
+        integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"></script>
+
 <script src="/vevstol-pages/_bridgetown/static/index.N25NTDBL.js" defer></script>
+
+<script>
+$(document).ready(function() {
+  $('.image-link').magnificPopup({
+    type: 'image',
+    tClose: 'Lukk (Esc)',
+    gallery: {
+      enabled: true,
+      tCounter: '<span class="mfp-counter">%curr% av %total% bilder</span>',
+      tPrev: 'Forrige bilde',
+      tNext: 'Neste bilde'
+    }
+  });
+});
+</script>
+
 <script type="module">let lastmod = 0
 function startReloadConnection() {
   const evtSource = new EventSource("/vevstol-pages/_bridgetown/live_reload")
@@ -111,7 +140,9 @@ setTimeout(() => {
 
 <p class="block">Fra Ingjerd Knoph Andreassen</p>
 
-<p><img src="/vevstol-pages/images/skumgummi_holder_tegning_thumb.jpg" alt="Tips 1 Billedvev - Skumgummi holder tegning" class="image-l" /></p>
+<p><a href="/vevstol-pages/images/skumgummi_holder_tegning_large.jpg" title="Tips 1 Billedvev - Skumgummi holder tegning" class="image-link">
+  <img src="/vevstol-pages/images/skumgummi_holder_tegning_thumb.jpg" size="150x114" alt="Tips 1 Billedvev - Skumgummi holder tegning" title="Tips 1 Billedvev - Skumgummi holder tegning" class="image-l" />
+</a></p>
 
 <p class="block">
   En fin måte å klemme tegningen inn mot renningen på, er å bruke skumgummi.
@@ -135,7 +166,9 @@ setTimeout(() => {
 
 <p class="block">Fra Solveig Øvergaard</p>
 
-<p><img src="/vevstol-pages/images/papir_mot_skarpe_kanter_thumb.jpg" alt="Tips 2 Billedvev - Papir mot skarpe kanter" class="image-r" /></p>
+<p><a href="/vevstol-pages/images/papir_mot_skarpe_kanter_large.jpg" title="Tips 2 Billedvev - Papir mot skarpe kanter" class="image-link">
+  <img src="/vevstol-pages/images/papir_mot_skarpe_kanter_thumb.jpg" size="150x114" alt="Tips 2 Billedvev - Papir mot skarpe kanter" title="Tips 2 Billedvev - Papir mot skarpe kanter" class="image-r" />
+</a></p>
 
 <p class="block">
   Når du flytter fram, kan noen rammer ha så skarpe kanter
@@ -162,10 +195,20 @@ setTimeout(() => {
 
 <div class="columns">
   <div class="column">
-    <img src="/vevstol-pages/images/spiral_motsatte_sider_thumb.jpg" alt="Tips 3 Billedvev - Spiral motsatte sider" />
+    
+
+<a href="/vevstol-pages/images/spiral_motsatte_sider_large.jpg" title="Tips 3 Billedvev - Spiral motsatte sider" class="image-link">
+  <img src="/vevstol-pages/images/spiral_motsatte_sider_thumb.jpg" size="150x114" alt="Tips 3 Billedvev - Spiral motsatte sider" title="Tips 3 Billedvev - Spiral motsatte sider" class="image-l" />
+</a>
+
   </div>
   <div class="column">
-    <img src="/vevstol-pages/images/spiral_samme_side_thumb.jpg" alt="Tips 3 Billedvev - Spiral samme side" />
+    
+
+<a href="/vevstol-pages/images/spiral_samme_side_large.jpg" title="Tips 3 Billedvev - Spiral samme side" class="image-link">
+  <img src="/vevstol-pages/images/spiral_samme_side_thumb.jpg" size="150x114" alt="Tips 3 Billedvev - Spiral samme side" title="Tips 3 Billedvev - Spiral samme side" class="image-l" />
+</a>
+
   </div>
 </div>
 

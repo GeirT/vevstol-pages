@@ -9,7 +9,36 @@
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+      integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"
+        integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"></script>
+
 <script src="/vevstol-pages/_bridgetown/static/index.N25NTDBL.js" defer></script>
+
+<script>
+$(document).ready(function() {
+  $('.image-link').magnificPopup({
+    type: 'image',
+    tClose: 'Lukk (Esc)',
+    gallery: {
+      enabled: true,
+      tCounter: '<span class="mfp-counter">%curr% av %total% bilder</span>',
+      tPrev: 'Forrige bilde',
+      tNext: 'Neste bilde'
+    }
+  });
+});
+</script>
+
 <script type="module">let lastmod = 0
 function startReloadConnection() {
   const evtSource = new EventSource("/vevstol-pages/_bridgetown/live_reload")
@@ -108,7 +137,12 @@ setTimeout(() => {
 
 
 <p class="block">
-  <img src="/vevstol-pages/images/smia_medium.jpg" alt="Smia i Bokemoa" />
+  
+
+<a href="/vevstol-pages/images/smia_large.jpg" title="Smia i Bokemoa" class="image-link">
+  <img src="/vevstol-pages/images/smia_medium.jpg" size="400x304" alt="Smia i Bokemoa" title="Smia i Bokemoa" class="image-l" />
+</a>
+
 
   Stokke Husflidslag har et veldig godt samarbeid med Stokke Historielag
   og Bygdetunet.
@@ -126,8 +160,13 @@ setTimeout(() => {
   Begge lag har stor gjensidig nytte og glede av dette samarbeidet.
 </p>
 
-<p class="block">
-  <img src="/vevstol-pages/images/smia_skjoting_medium.jpg" alt="Detalj av skjøting av to stokker" />
+<p class="block clear">
+  
+
+<a href="/vevstol-pages/images/smia_skjoting_large.jpg" title="Detalj av skjøting av to stokker" class="image-link">
+  <img src="/vevstol-pages/images/smia_skjoting_medium.jpg" size="400x304" alt="Detalj av skjøting av to stokker" title="Detalj av skjøting av to stokker" class="image-l" />
+</a>
+
 
   Smia ble bygget i 2008-2010, men noen av byggemetodene er gamle.
   Her er en detalj av skjøting av to stokker.
@@ -145,8 +184,13 @@ setTimeout(() => {
   arbeidsrom / vevstue for husflidslaget i underetasjen.
 </p>
 
-<p class="block">
-  <img src="/vevstol-pages/images/smia_inne_medium.jpg" alt="Inne i smia" />
+<p class="block clear">
+  
+
+<a href="/vevstol-pages/images/smia_inne_large.jpg" title="Inne i smia" class="image-link">
+  <img src="/vevstol-pages/images/smia_inne_medium.jpg" size="400x304" alt="Inne i smia" title="Inne i smia" class="image-l" />
+</a>
+
 
   Smia har 6 esser sentralt plassert i rommet.
   Ambolter er plassert rundt esse slik at hver deltager har god plass.

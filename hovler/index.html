@@ -9,7 +9,36 @@
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+      integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"
+        integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"></script>
+
 <script src="/vevstol-pages/_bridgetown/static/index.N25NTDBL.js" defer></script>
+
+<script>
+$(document).ready(function() {
+  $('.image-link').magnificPopup({
+    type: 'image',
+    tClose: 'Lukk (Esc)',
+    gallery: {
+      enabled: true,
+      tCounter: '<span class="mfp-counter">%curr% av %total% bilder</span>',
+      tPrev: 'Forrige bilde',
+      tNext: 'Neste bilde'
+    }
+  });
+});
+</script>
+
 <script type="module">let lastmod = 0
 function startReloadConnection() {
   const evtSource = new EventSource("/vevstol-pages/_bridgetown/live_reload")
@@ -107,7 +136,10 @@ setTimeout(() => {
         <h1 class="is-size-1">Produktbeskrivelse for hovelstativ</h1>
 
 
-<p><img src="/vevstol-pages/images/image09_thumb.jpg" alt="Stativ for billedvevramme" class="image-l" /></p>
+
+<p><a href="/vevstol-pages/images/image09_large.jpg" title="Stativ for billedvevramme" class="image-link">
+  <img src="/vevstol-pages/images/image09_thumb.jpg" size="150x114" alt="Stativ for billedvevramme" title="Stativ for billedvevramme" class="image-l" />
+</a></p>
 
 <p class="block">
   Hovelstativ brukes for lagring av hovler og skaftelåser, og det kan

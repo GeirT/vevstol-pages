@@ -9,7 +9,36 @@
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+      integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"
+        integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"></script>
+
 <script src="/vevstol-pages/_bridgetown/static/index.N25NTDBL.js" defer></script>
+
+<script>
+$(document).ready(function() {
+  $('.image-link').magnificPopup({
+    type: 'image',
+    tClose: 'Lukk (Esc)',
+    gallery: {
+      enabled: true,
+      tCounter: '<span class="mfp-counter">%curr% av %total% bilder</span>',
+      tPrev: 'Forrige bilde',
+      tNext: 'Neste bilde'
+    }
+  });
+});
+</script>
+
 <script type="module">let lastmod = 0
 function startReloadConnection() {
   const evtSource = new EventSource("/vevstol-pages/_bridgetown/live_reload")
@@ -108,61 +137,117 @@ setTimeout(() => {
 
 
 
-<p><img src="/vevstol-pages/images/image01_thumb.jpg" alt="Fot for Glimåkra 40x40 mm" /></p>
+<p><a href="/vevstol-pages/images/image01_large.jpg" title="Fot for Glimåkra 40x40 mm" class="image-link">
+  <img src="/vevstol-pages/images/image01_thumb.jpg" size="150x148" alt="Fot for Glimåkra 40x40 mm" title="Fot for Glimåkra 40x40 mm" class="image-l" />
+</a></p>
 
-<p><img src="/vevstol-pages/images/image02_thumb.jpg" alt="Fot for ratt med mutter" /></p>
+<p><a href="/vevstol-pages/images/image02_large.jpg" title="Fot for ratt med mutter" class="image-link">
+  <img src="/vevstol-pages/images/image02_thumb.jpg" size="150x130" alt="Fot for ratt med mutter" title="Fot for ratt med mutter" class="image-l" />
+</a></p>
 
-<p><img src="/vevstol-pages/images/image03_thumb.jpg" alt="Fot for slett ratt" /></p>
+<p><a href="/vevstol-pages/images/image03_large.jpg" title="Fot for slett ratt" class="image-link">
+  <img src="/vevstol-pages/images/image03_thumb.jpg" size="150x121" alt="Fot for slett ratt" title="Fot for slett ratt" class="image-l" />
+</a></p>
 
-<p><img src="/vevstol-pages/images/image04_thumb.jpg" alt="Skralle på vev" /></p>
+<p><a href="/vevstol-pages/images/image04_large.jpg" title="Skralle på vev" class="image-link">
+  <img src="/vevstol-pages/images/image04_thumb.jpg" size="150x114" alt="Skralle på vev" title="Skralle på vev" class="image-l" />
+</a></p>
 
-<p><img src="/vevstol-pages/images/image07_thumb.jpg" alt="Stativ for billedvevramme" /></p>
+<p><a href="/vevstol-pages/images/image07_large.jpg" title="Stativ for billedvevramme" class="image-link">
+  <img src="/vevstol-pages/images/image07_thumb.jpg" size="150x146" alt="Stativ for billedvevramme" title="Stativ for billedvevramme" class="image-l" />
+</a></p>
 
-<p><img src="/vevstol-pages/images/image06_thumb.jpg" alt="Sveiping med skralle" /></p>
+<p><a href="/vevstol-pages/images/image06_large.jpg" title="Sveiping med skralle" class="image-link">
+  <img src="/vevstol-pages/images/image06_thumb.jpg" size="150x120" alt="Sveiping med skralle" title="Sveiping med skralle" class="image-l" />
+</a></p>
 
-<p><img src="/vevstol-pages/images/image09_thumb.jpg" alt="Stativ for hovler" /></p>
+<p><a href="/vevstol-pages/images/image09_large.jpg" title="Stativ for hovler" class="image-link">
+  <img src="/vevstol-pages/images/image09_thumb.jpg" size="150x114" alt="Stativ for hovler" title="Stativ for hovler" class="image-l" />
+</a></p>
 
-<p><img src="/vevstol-pages/images/image10_thumb.jpg" alt="Svevende veksler" /></p>
+<p><a href="/vevstol-pages/images/image10_large.jpg" title="Svevende veksler" class="image-link">
+  <img src="/vevstol-pages/images/image10_thumb.jpg" size="150x114" alt="Svevende veksler" title="Svevende veksler" class="image-l" />
+</a></p>
 
-<p><img src="/vevstol-pages/images/image11_thumb.jpg" alt="Kroker i skaft og veksler" /></p>
+<p><a href="/vevstol-pages/images/image11_large.jpg" title="Kroker i skaft og veksler" class="image-link">
+  <img src="/vevstol-pages/images/image11_thumb.jpg" size="150x114" alt="Kroker i skaft og veksler" title="Kroker i skaft og veksler" class="image-l" />
+</a></p>
 
-<p><img src="/vevstol-pages/images/manglende_mutter_thumb.jpg" alt="Manglende mutter" /></p>
+<p><a href="/vevstol-pages/images/manglende_mutter_large.jpg" title="Manglende mutter" class="image-link">
+  <img src="/vevstol-pages/images/manglende_mutter_thumb.jpg" size="150x114" alt="Manglende mutter" title="Manglende mutter" class="image-l" />
+</a></p>
 
-<p><img src="/vevstol-pages/images/skade_pa_vevstol_uten_mutter_thumb.jpg" alt="Skade på vevstol uten mutter" /></p>
+<p><a href="/vevstol-pages/images/skade_pa_vevstol_uten_mutter_large.jpg" title="Skade på vevstol uten mutter" class="image-link">
+  <img src="/vevstol-pages/images/skade_pa_vevstol_uten_mutter_thumb.jpg" size="150x114" alt="Skade på vevstol uten mutter" title="Skade på vevstol uten mutter" class="image-l" />
+</a></p>
 
-<p><img src="/vevstol-pages/images/bord_mot_veggen_thumb.jpg" alt="Bord mot veggen" /></p>
+<p><a href="/vevstol-pages/images/bord_mot_veggen_large.jpg" title="Bord mot veggen" class="image-link">
+  <img src="/vevstol-pages/images/bord_mot_veggen_thumb.jpg" size="150x114" alt="Bord mot veggen" title="Bord mot veggen" class="image-l" />
+</a></p>
 
-<p><img src="/vevstol-pages/images/resultat_av_krefter_thumb.jpg" alt="Resultat av krefter" /></p>
+<p><a href="/vevstol-pages/images/resultat_av_krefter_large.jpg" title="Resultat av krefter" class="image-link">
+  <img src="/vevstol-pages/images/resultat_av_krefter_thumb.jpg" size="150x114" alt="Resultat av krefter" title="Resultat av krefter" class="image-l" />
+</a></p>
 
-<p><img src="/vevstol-pages/images/tilrettelagt_arbeid_thumb.jpg" alt="Tilrettelegging for svake armer" /></p>
+<p><a href="/vevstol-pages/images/tilrettelagt_arbeid_large.jpg" title="Tilrettelegging for svake armer" class="image-link">
+  <img src="/vevstol-pages/images/tilrettelagt_arbeid_thumb.jpg" size="150x114" alt="Tilrettelegging for svake armer" title="Tilrettelegging for svake armer" class="image-l" />
+</a></p>
 
-<p><img src="/vevstol-pages/images/bendelbaand_thumb.jpg" alt="Hvor mye renning er det igjen?" /></p>
+<p><a href="/vevstol-pages/images/bendelbaand_large.jpg" title="Hvor mye renning er det igjen?" class="image-link">
+  <img src="/vevstol-pages/images/bendelbaand_thumb.jpg" size="150x114" alt="Hvor mye renning er det igjen?" title="Hvor mye renning er det igjen?" class="image-l" />
+</a></p>
 
-<p><img src="/vevstol-pages/images/defekt_ratt_thumb.jpg" alt="Vedlikehold av ratt" /></p>
+<p><a href="/vevstol-pages/images/defekt_ratt_large.jpg" title="Vedlikehold av ratt" class="image-link">
+  <img src="/vevstol-pages/images/defekt_ratt_thumb.jpg" size="150x114" alt="Vedlikehold av ratt" title="Vedlikehold av ratt" class="image-l" />
+</a></p>
 
-<p><img src="/vevstol-pages/images/beskytte_renning_thumb.jpg" alt="Beskytte renningen mot slitasje" /></p>
+<p><a href="/vevstol-pages/images/beskytte_renning_large.jpg" title="Beskytte renningen mot slitasje" class="image-link">
+  <img src="/vevstol-pages/images/beskytte_renning_thumb.jpg" size="150x114" alt="Beskytte renningen mot slitasje" title="Beskytte renningen mot slitasje" class="image-l" />
+</a></p>
 
-<p><img src="/vevstol-pages/images/skumgummi_holder_tegning_thumb.jpg" alt="Skumgummi holder tegning" /></p>
+<p><a href="/vevstol-pages/images/skumgummi_holder_tegning_large.jpg" title="Skumgummi holder tegning" class="image-link">
+  <img src="/vevstol-pages/images/skumgummi_holder_tegning_thumb.jpg" size="150x114" alt="Skumgummi holder tegning" title="Skumgummi holder tegning" class="image-l" />
+</a></p>
 
-<p><img src="/vevstol-pages/images/papir_mot_skarpe_kanter_thumb.jpg" alt="Papir mot skarpe kanter" /></p>
+<p><a href="/vevstol-pages/images/papir_mot_skarpe_kanter_large.jpg" title="Papir mot skarpe kanter" class="image-link">
+  <img src="/vevstol-pages/images/papir_mot_skarpe_kanter_thumb.jpg" size="150x114" alt="Papir mot skarpe kanter" title="Papir mot skarpe kanter" class="image-l" />
+</a></p>
 
-<p><img src="/vevstol-pages/images/spiral_motsatte_sider_thumb.jpg" alt="Spiral motsatte sider" /></p>
+<p><a href="/vevstol-pages/images/spiral_motsatte_sider_large.jpg" title="Spiral motsatte sider" class="image-link">
+  <img src="/vevstol-pages/images/spiral_motsatte_sider_thumb.jpg" size="150x114" alt="Spiral motsatte sider" title="Spiral motsatte sider" class="image-l" />
+</a></p>
 
-<p><img src="/vevstol-pages/images/spiral_samme_side_thumb.jpg" alt="Spiral samme side" /></p>
+<p><a href="/vevstol-pages/images/spiral_samme_side_large.jpg" title="Spiral samme side" class="image-link">
+  <img src="/vevstol-pages/images/spiral_samme_side_thumb.jpg" size="150x114" alt="Spiral samme side" title="Spiral samme side" class="image-l" />
+</a></p>
 
-<p><img src="/vevstol-pages/images/vevfot_002_thumb.jpg" alt="Vevfot" /></p>
+<p><a href="/vevstol-pages/images/vevfot_002_large.jpg" title="Vevfot" class="image-link">
+  <img src="/vevstol-pages/images/vevfot_002_thumb.jpg" size="150x114" alt="Vevfot" title="Vevfot" class="image-l" />
+</a></p>
 
-<p><img src="/vevstol-pages/images/vevfot_003_thumb.jpg" alt="Vevfot" /></p>
+<p><a href="/vevstol-pages/images/vevfot_003_large.jpg" title="Vevfot" class="image-link">
+  <img src="/vevstol-pages/images/vevfot_003_thumb.jpg" size="150x114" alt="Vevfot" title="Vevfot" class="image-l" />
+</a></p>
 
-<p><img src="/vevstol-pages/images/sprangramme_justering_thumb.jpg" alt="Detalj av toppen. Viser strammeskruer og fastsying til stang." /></p>
+<p><a href="/vevstol-pages/images/sprangramme_justering_large.jpg" title="Detalj av toppen. Viser strammeskruer og fastsying til stang." class="image-link">
+  <img src="/vevstol-pages/images/sprangramme_justering_thumb.jpg" size="150x114" alt="Detalj av toppen. Viser strammeskruer og fastsying til stang." title="Detalj av toppen. Viser strammeskruer og fastsying til stang." class="image-l" />
+</a></p>
 
-<p><img src="/vevstol-pages/images/standard_sprangramme_75_cm_bred_thumb.jpg" alt="Dette er en 75 cm bred ramme som er gjort klar til bregding." /></p>
+<p><a href="/vevstol-pages/images/standard_sprangramme_75_cm_bred_large.jpg" title="Dette er en 75 cm bred ramme som er gjort klar til bregding." class="image-link">
+  <img src="/vevstol-pages/images/standard_sprangramme_75_cm_bred_thumb.jpg" size="150x211" alt="Dette er en 75 cm bred ramme som er gjort klar til bregding." title="Dette er en 75 cm bred ramme som er gjort klar til bregding." class="image-l" />
+</a></p>
 
-<p><img src="/vevstol-pages/images/sprangramme_forlenget_thumb.jpg" alt="Standard ramme er skjøtt til effektiv starthøyde 175 cm." /></p>
+<p><a href="/vevstol-pages/images/sprangramme_forlenget_large.jpg" title="Standard ramme er skjøtt til effektiv starthøyde 175 cm." class="image-link">
+  <img src="/vevstol-pages/images/sprangramme_forlenget_thumb.jpg" size="150x197" alt="Standard ramme er skjøtt til effektiv starthøyde 175 cm." title="Standard ramme er skjøtt til effektiv starthøyde 175 cm." class="image-l" />
+</a></p>
 
-<p><img src="/vevstol-pages/images/veske_til_sprangramme_thumb.jpg" alt="Sprangramme er demontert og fraktes i hendig veske. Arbeidet sitter på stenger slik det var ved demonteringen." /></p>
+<p><a href="/vevstol-pages/images/veske_til_sprangramme_large.jpg" title="Sprangramme er demontert og fraktes i hendig veske. Arbeidet sitter på stenger slik det var ved demonteringen." class="image-link">
+  <img src="/vevstol-pages/images/veske_til_sprangramme_thumb.jpg" size="150x222" alt="Sprangramme er demontert og fraktes i hendig veske. Arbeidet sitter på stenger slik det var ved demonteringen." title="Sprangramme er demontert og fraktes i hendig veske. Arbeidet sitter på stenger slik det var ved demonteringen." class="image-l" />
+</a></p>
 
-<p><img src="/vevstol-pages/images/veske_innvendig_thumb.jpg" alt="Det er sydd egne poser for smådeler og stenger med arbeid." /></p>
+<p><a href="/vevstol-pages/images/veske_innvendig_large.jpg" title="Det er sydd egne poser for smådeler og stenger med arbeid." class="image-link">
+  <img src="/vevstol-pages/images/veske_innvendig_thumb.jpg" size="150x324" alt="Det er sydd egne poser for smådeler og stenger med arbeid." title="Det er sydd egne poser for smådeler og stenger med arbeid." class="image-l" />
+</a></p>
 
 
 
