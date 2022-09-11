@@ -31,12 +31,18 @@ categories: product
 
 <div class="columns">
   <div class="column">
-    <img src="<%= relative_url '/images/Herborg_Wahl_1999_forside_thumb.jpg' %>"
-         alt="Tips 1 Sprang - Herborg Wahl: Nytt liv i gamle sprangmønstre, utgitt 1999 (forsiden)" />
+    <%= render "cool_image",
+      src: 'Herborg_Wahl_1999_forside',
+      size: '150x214',
+      desc: 'Tips 1 Sprang - Herborg Wahl: Nytt liv i gamle sprangmønstre, utgitt 1999 (forsiden)',
+      thumb_class: 'image-l' %>
   </div>
   <div class="column">
-    <img src="<%= relative_url '/images/Herborg_Wahl_1999_bakside_thumb.jpg' %>"
-         alt="Tips 1 Sprang - Herborg Wahl: Nytt liv i gamle sprangmønstre, utgitt 1999 (baksiden)" />
+    <%= render "cool_image",
+      src: 'Herborg_Wahl_1999_bakside',
+      size: '150x212',
+      desc: 'Tips 1 Sprang - Herborg Wahl: Nytt liv i gamle sprangmønstre, utgitt 1999 (baksiden)',
+      thumb_class: 'image-l' %>
   </div>
 </div>
 
@@ -50,12 +56,18 @@ categories: product
 
 <div class="columns">
   <div class="column">
-    <img src="<%= relative_url '/images/Herborg_Wahl_2003_forside_thumb.jpg' %>"
-         alt="Tips 1 Sprang - Herborg Wahl: Jakten på sprang, utgitt 2003 (forsiden)" />
+    <%= render "cool_image",
+      src: 'Herborg_Wahl_2003_forside',
+      size: '150x212',
+      desc: 'Tips 1 Sprang - Herborg Wahl: Jakten på sprang, utgitt 2003 (forsiden)',
+      thumb_class: 'image-l' %>
   </div>
   <div class="column">
-    <img src="<%= relative_url '/images/Herborg_Wahl_2003_bakside_thumb.jpg' %>"
-         alt="Tips 1 Sprang - Herborg Wahl: Jakten på sprang, utgitt 2003 (baksiden)" />
+    <%= render "cool_image",
+      src: 'Herborg_Wahl_2003_bakside',
+      size: '150x211',
+      desc: 'Tips 1 Sprang - Herborg Wahl: Jakten på sprang, utgitt 2003 (baksiden)',
+      thumb_class: 'image-l' %>
   </div>
 </div>
 
@@ -65,11 +77,17 @@ categories: product
 
 <div class="columns">
   <div class="column">
-    <img src="<%= relative_url '/images/Herborg_Wahl_2007_forside_thumb.jpg' %>"
-         alt="Tips 1 Sprang - Herborg Wahl: Sprangmodeller, utgitt 2007 (forsiden)" />
+    <%= render "cool_image",
+      src: 'Herborg_Wahl_2007_forside',
+      size: '150x211',
+      desc: 'Tips 1 Sprang - Herborg Wahl: Sprangmodeller, utgitt 2007 (forsiden)',
+      thumb_class: 'image-l' %>
   </div>
   <div class="column">
-    <img src="<%= relative_url '/images/Herborg_Wahl_2007_bakside_thumb.jpg' %>"
-         alt="Tips 1 Sprang - Herborg Wahl: Sprangmodeller, utgitt 2007 (baksiden)" />
+    <%= render "cool_image",
+      src: 'Herborg_Wahl_2007_bakside',
+      size: '150x217',
+      desc: 'Tips 1 Sprang - Herborg Wahl: Sprangmodeller, utgitt 2007 (baksiden)',
+      thumb_class: 'image-l' %>
   </div>
 </div>

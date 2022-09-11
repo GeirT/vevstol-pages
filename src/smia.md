@@ -6,8 +6,12 @@ categories: product
 ---
 
 <p class="block">
-  <img src="<%= relative_url '/images/smia_medium.jpg' %>"
-       alt="Smia i Bokemoa" />
+  <%= render "cool_image",
+    src: 'smia',
+    size: '400x304',
+    thumb_size: 'medium',
+    desc: 'Smia i Bokemoa',
+    thumb_class: 'image-l' %>
 
   Stokke Husflidslag har et veldig godt samarbeid med Stokke Historielag
   og Bygdetunet.
@@ -25,9 +29,13 @@ categories: product
   Begge lag har stor gjensidig nytte og glede av dette samarbeidet.
 </p>
 
-<p class="block">
-  <img src="<%= relative_url '/images/smia_skjoting_medium.jpg' %>"
-       alt="Detalj av skjøting av to stokker" />
+<p class="block clear">
+  <%= render "cool_image",
+    src: 'smia_skjoting',
+    size: '400x304',
+    thumb_size: 'medium',
+    desc: 'Detalj av skjøting av to stokker',
+    thumb_class: 'image-l' %>
 
   Smia ble bygget i 2008-2010, men noen av byggemetodene er gamle.
   Her er en detalj av skjøting av to stokker.
@@ -45,9 +53,13 @@ categories: product
   arbeidsrom / vevstue for husflidslaget i underetasjen.
 </p>
 
-<p class="block">
-  <img src="<%= relative_url '/images/smia_inne_medium.jpg' %>"
-       alt="Inne i smia" />
+<p class="block clear">
+  <%= render "cool_image",
+    src: 'smia_inne',
+    size: '400x304,
+    thumb_size: 'medium',
+    desc: 'Inne i smia',
+    thumb_class: 'image-l' %>
 
   Smia har 6 esser sentralt plassert i rommet.
   Ambolter er plassert rundt esse slik at hver deltager har god plass.

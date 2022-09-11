@@ -5,9 +5,11 @@ keywords: vevstol skralle stativ vevfot hovel veving husflid nodland vev produks
 categories: product
 ---
 
-<img src="<%= relative_url '/images/image06_thumb.jpg' %>"
-     alt="Glimåkravev sveipes med Skralle som er montert på fot"
-     class="image-r" />
+<%= render "cool_image",
+  src: 'image06',
+  size: '150x120',
+  desc: 'Glimåkravev sveipes med Skralle som er montert på fot',
+  thumb_class: 'image-r' %>
 
 <p class="block">
   Skralle er utført i elforzinket stål og gulkromatisert.

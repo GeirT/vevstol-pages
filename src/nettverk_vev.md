@@ -60,9 +60,11 @@ categories: product
   endre fordelingen mellom svart og hvitt innslag.
 </p>
 
-<img src="<%= relative_url '/images/dette_er_vevd_i_datavev_thumb.jpg' %>"
-     alt="Dette er vevd i datavev"
-     class="image-r" />
+<%= render "cool_image",
+  src: 'dette_er_vevd_i_datavev',
+  size: '150x114',
+  desc: 'Dette er vevd i datavev',
+  thumb_class: 'image-r' %>
 
 <p class="block">
   Det ene fargebildet som henger i foajeen er vevd med 8 farger,
@@ -81,12 +83,18 @@ categories: product
   Dette er et eksempel på at blokkene kan monteres på tradisjonelle vevstoler.
 </p>
 
-<img src="<%= relative_url '/images/ny_modell_datavev_thumb.jpg' %>"
-     alt="Ny modell datavev"
-     class="image-l" />
-<img src="<%= relative_url '/images/dagens_datavev_thumb.jpg' %>"
-     alt="Dagens datavev"
-     class="image-l" />
+<%= render "cool_image",
+  src: 'ny_modell_datavev',
+  size: '150x114',
+  desc: 'Ny modell datavev',
+  thumb_class: 'image-l' %>
+
+<%= render "cool_image",
+  src: 'dagens_datavev',
+  size: '150x114',
+  desc: 'Dagens datavev',
+  thumb_class: 'image-l' %>
+
 <p class="block">
   Dataveven som er avbildet er bygget med totalt 6 blokker,
   men kan leveres i flere bredder og med forskjellig antall blokker.

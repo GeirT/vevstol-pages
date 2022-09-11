@@ -1,4 +1,15 @@
-<% img_src = relative_url "/images/" + src + "_thumb.jpg" %>
+<% thumb_size = thumb_size || "thumb" %>
+<% thumb_src = relative_url "/images/#{ src }_#{ thumb_size }.jpg" %>
 
-<img src="<%= img_src %>"
-     alt="<%= desc %>" />
+<% img_src_large = relative_url "/images/#{ src }_large.jpg" %>
+<% thumb_class = thumb_class || "image-l" %>
+
+<a href="<%= img_src_large %>"
+   title="<%= desc %>"
+   class="image-link">
+  <img src="<%= thumb_src %>"
+    size="<%= size %>"
+    alt="<%= desc %>"
+    title="<%= desc %>"
+    class="<%= thumb_class %>" />
+</a>

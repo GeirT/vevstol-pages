@@ -9,9 +9,11 @@ categories: product
 
 <p class="block">Fra Ingjerd Knoph Andreassen</p>
 
-<img src="<%= relative_url '/images/skumgummi_holder_tegning_thumb.jpg' %>"
-     alt="Tips 1 Billedvev - Skumgummi holder tegning"
-     class="image-l" />
+<%= render "cool_image",
+  src: 'skumgummi_holder_tegning',
+  size: '150x114',
+  desc: 'Tips 1 Billedvev - Skumgummi holder tegning',
+  thumb_class: 'image-l' %>
 
 <p class="block">
   En fin måte å klemme tegningen inn mot renningen på, er å bruke skumgummi.
@@ -36,9 +38,11 @@ categories: product
 
 <p class="block">Fra Solveig Øvergaard</p>
 
-<img src="<%= relative_url '/images/papir_mot_skarpe_kanter_thumb.jpg' %>"
-     alt="Tips 2 Billedvev - Papir mot skarpe kanter"
-     class="image-r" />
+<%= render "cool_image",
+  src: 'papir_mot_skarpe_kanter',
+  size: '150x114',
+  desc: 'Tips 2 Billedvev - Papir mot skarpe kanter',
+  thumb_class: 'image-r' %>
 
 <p class="block">
   Når du flytter fram, kan noen rammer ha så skarpe kanter
@@ -66,12 +70,18 @@ categories: product
 
 <div class="columns">
   <div class="column">
-    <img src="<%= relative_url '/images/spiral_motsatte_sider_thumb.jpg' %>"
-         alt="Tips 3 Billedvev - Spiral motsatte sider" />
+    <%= render "cool_image",
+      src: 'spiral_motsatte_sider',
+      size: '150x114',
+      desc: 'Tips 3 Billedvev - Spiral motsatte sider',
+      thumb_class: 'image-l' %>
   </div>
   <div class="column">
-    <img src="<%= relative_url '/images/spiral_samme_side_thumb.jpg' %>"
-         alt="Tips 3 Billedvev - Spiral samme side" />
+    <%= render "cool_image",
+      src: 'spiral_samme_side',
+      size: '150x114',
+      desc: 'Tips 3 Billedvev - Spiral samme side',
+      thumb_class: 'image-l' %>
   </div>
 </div>
 

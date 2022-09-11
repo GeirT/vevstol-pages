@@ -9,9 +9,12 @@ keywords: vevstol veving husflid nodland vev vevfot produksjon stativ
 
 <h2 class="is-size-2">Velkommen til vevstol.no</h2>
 
-<img src="<%= relative_url '/images/image04_medium.jpg' %>"
-     alt="Skralle på vev"
-     class="image-r" />
+<%= render "cool_image",
+  src: 'image04',
+  size: '350x266',
+  desc: 'Skralle på vev',
+  thumb_size: 'medium',
+  thumb_class: 'image-r' %>
 
 <p class="block">
   Nodland vevstol legger ut tips om vev, billedvev, sprang, og ruteark og

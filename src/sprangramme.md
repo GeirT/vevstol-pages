@@ -87,19 +87,34 @@ categories: product
 
 <div class="columns">
   <div class="column">
-    <img src="<%= relative_url '/images/sprangramme_justering_thumb.jpg' %>"
-         alt="Detalj av toppen. Viser strammeskruer og fastsying til stang." />
+    <%= render "cool_image",
+      src: 'sprangramme_justering',
+      size: '150x114',
+      desc: 'Detalj av toppen. Viser strammeskruer og fastsying til stang.',
+      thumb_class: 'normal' %>
 
-    <img src="<%= relative_url '/images/standard_sprangramme_75_cm_bred_thumb.jpg' %>"
-         alt="Dette er en 75 cm bred ramme som er gjort klar til bregding." />
+    <%= render "cool_image",
+      src: 'standard_sprangramme_75_cm_bred',
+      size: '150x211',
+      desc: 'Dette er en 75 cm bred ramme som er gjort klar til bregding.',
+      thumb_class: 'normal' %>
 
-    <img src="<%= relative_url '/images/sprangramme_forlenget_thumb.jpg' %>"
-         alt="Standard ramme er skjøtt til effektiv starthøyde 175 cm." />
+    <%= render "cool_image",
+      src: 'sprangramme_forlenget',
+      size: '150x197',
+      desc: 'Standard ramme er skjøtt til effektiv starthøyde 175 cm.',
+      thumb_class: 'normal' %>
 
-    <img src="<%= relative_url '/images/veske_til_sprangramme_thumb.jpg' %>"
-         alt="Sprangramme er demontert og fraktes i hendig veske. Arbeidet sitter på stenger slik det var ved demonteringen." />
+    <%= render "cool_image",
+      src: 'veske_til_sprangramme',
+      size: '150x222',
+      desc: 'Sprangramme er demontert og fraktes i hendig veske. Arbeidet sitter på stenger slik det var ved demonteringen.',
+      thumb_class: 'normal' %>
 
-    <img src="<%= relative_url '/images/veske_innvendig_thumb.jpg' %>"
-         alt="Det er sydd egne poser for smådeler og stenger med arbeid." />
+    <%= render "cool_image",
+      src: 'veske_innvendig',
+      size: '150x324',
+      desc: 'Det er sydd egne poser for smådeler og stenger med arbeid.',
+      thumb_class: 'normal' %>
   </div>
 </div>

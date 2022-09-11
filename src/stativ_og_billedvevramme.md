@@ -5,9 +5,11 @@ keywords: vevstol stativ skralle vevfot hovel veving husflid nodland vev produks
 categories: product
 ---
 
-<img src="<%= relative_url '/images/image07_thumb.jpg' %>"
-     alt="Stativ for billedvevramme"
-     class="image-r" />
+<%= render "cool_image",
+  src: 'image07',
+  size: '150x146',
+  desc: 'Stativ for billedvevramme',
+  thumb_class: 'image-r' %>
 
 <p class="block">
   Stativet er utført i elforzinket stål og gulkromatisert.

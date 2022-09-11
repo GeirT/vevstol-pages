@@ -91,15 +91,24 @@ categories: product
 
 <div class="columns">
   <div class="column">
-    <img src="<%= relative_url '/images/Elle_vever_seil_thumb.jpg' %>"
-         alt="Elle vever seil." />
+    <%= render "cool_image",
+      src: 'Elle_vever_seil',
+      size: '150x114',
+      desc: 'Elle vever seil.',
+      thumb_class: 'image-l' %>
   </div>
   <div class="column">
-    <img src="<%= relative_url '/images/Unni_i_veven_thumb.jpg' %>"
-         alt="Unni i veven." />
+    <%= render "cool_image",
+      src: 'Unni_i_veven',
+      size: '150x114',
+      desc: 'Unni i veven.',
+      thumb_class: 'image-l' %>
   </div>
   <div class="column">
-    <img src="<%= relative_url '/images/Vev_i_hotellets_resepsjon_thumb.jpg' %>"
-         alt="Vev i hotellets resepsjon." />
+    <%= render "cool_image",
+      src: 'Vev_i_hotellets_resepsjon',
+      size: '150x114',
+      desc: 'Vev i hotellets resepsjon.',
+      thumb_class: 'image-l' %>
   </div>
 </div>

@@ -46,9 +46,11 @@ categories: product
   det borres nye hull for innfesting av spiral.
 </p>
 
-<img src="<%= relative_url '/images/rammer_og_stativ_thumb.jpg' %>"
-     alt="Rammer og stativ."
-     class="image-l" />
+<%= render "cool_image",
+  src: 'rammer_og_stativ',
+  size: '150x114',
+  desc: 'Rammer og stativ.',
+  thumb_class: 'image-l' %>
 
 <p class="block">
   På bilde er 85 cm ramme satt inn i stativ. 120 cm og 65 cm ramme står med

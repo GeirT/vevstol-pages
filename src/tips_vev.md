@@ -35,9 +35,11 @@ categories: product
 
 <h2 class="is-size-2">Tips 3 Vevstol - Svevende veksler</h2>
 
-<img src="<%= relative_url '/images/image10_thumb.jpg' %>"
-     alt="Tips 3 Vevstol - Svevende veksler"
-     class="image-r" />
+<%= render "cool_image",
+  src: 'image10',
+  size: '150x114',
+  desc: 'Tips 3 Vevstol - Svevende veksler',
+  thumb_class: 'image-r' %>
 
 <p class="block">
   Noe som kan forenkle vevingen er å bruke svevende veksler.
@@ -49,9 +51,11 @@ categories: product
   Det er en større prosess hvor det må lages mange nye deler.
 </p>
 
-<img src="<%= relative_url '/images/image11_thumb.jpg' %>"
-     alt="Tips 3 Vevstol - Kroker i skaft og veksler"
-     class="image-l" />
+<%= render "cool_image",
+  src: 'image11',
+  size: '150x114',
+  desc: 'Tips 3 Vevstol - Kroker i skaft og veksler',
+  thumb_class: 'image-l' %>
 
 <p class="block">
   En overveksel kan veldig enkelt klargjøres til svevende.
@@ -135,12 +139,18 @@ categories: product
 
 <div class="columns">
   <div class="column">
-    <img src="<%= relative_url '/images/manglende_mutter_thumb.jpg' %>"
-         alt="Tips 4 Vevstol - Manglende mutter" />
+    <%= render "cool_image",
+      src: 'manglende_mutter',
+      size: '150x114',
+      desc: 'Tips 4 Vevstol - Manglende mutter',
+      thumb_class: 'image-l' %>
   </div>
   <div class="column">
-    <img src="<%= relative_url '/images/skade_pa_vevstol_uten_mutter_thumb.jpg' %>"
-         alt="Tips 4 Vevstol - Skade på vevstol uten mutter" />
+    <%= render "cool_image",
+      src: 'skade_pa_vevstol_uten_mutter',
+      size: '150x114',
+      desc: 'Tips 4 Vevstol - Skade på vevstol uten mutter',
+      thumb_class: 'image-l' %>
   </div>
 </div>
 
@@ -200,12 +210,18 @@ categories: product
 
 <div class="columns">
   <div class="column">
-    <img src="<%= relative_url '/images/bord_mot_veggen_thumb.jpg' %>"
-         alt="Tips 5 Vevstol - Bord mot veggen" />
+    <%= render "cool_image",
+      src: 'bord_mot_veggen',
+      size: '150x114',
+      desc: 'Tips 5 Vevstol - Bord mot veggen',
+      thumb_class: 'image-l' %>
   </div>
   <div class="column">
-    <img src="<%= relative_url '/images/resultat_av_krefter_thumb.jpg' %>"
-         alt="Tips 5 Vevstol - Resultat av krefter" />
+    <%= render "cool_image",
+      src: 'resultat_av_krefter',
+      size: '150x114',
+      desc: 'Tips 5 Vevstol - Resultat av krefter',
+      thumb_class: 'image-l' %>
   </div>
 </div>
 
@@ -287,9 +303,11 @@ categories: product
 
 <h2 class="is-size-2">Tips 8 Vevstol - Tilrettelegging for svake armer</h2>
 
-<img src="<%= relative_url '/images/tilrettelagt_arbeid_thumb.jpg' %>"
-     alt="Tips 8 Vevstol - Tilrettelegging for svake armer"
-     class="image-r" />
+<%= render "cool_image",
+  src: 'tilrettelagt_arbeid',
+  size: '150x114',
+  desc: 'Tips 8 Vevstol - Tilrettelegging for svake armer',
+  thumb_class: 'image-r' %>
 
 <p class="block">
   Det trengs litt muskelkraft for å få til et hardt tilslag.
@@ -307,9 +325,11 @@ categories: product
 
 <h2 class="is-size-2">Tips 9 Vevstol - Hvor mye renning er det igjen?</h2>
 
-<img src="<%= relative_url '/images/bendelbaand_thumb.jpg' %>"
-     alt="Tips 9 Vevstol - Hvor mye renning er det igjen?"
-     class="image-l" />
+<%= render "cool_image",
+  src: 'bendelbaand',
+  size: '150x114',
+  desc: 'Tips 9 Vevstol - Hvor mye renning er det igjen?',
+  thumb_class: 'image-l' %>
 
 <p class="block">
   Det kan ofte være vanskelig å beregne eller ha oversikt over
@@ -324,9 +344,11 @@ categories: product
 
 <h2 class="is-size-2 clear">Tips 10 Vevstol - Vedlikehold av ratt</h2>
 
-<img src="<%= relative_url '/images/defekt_ratt_thumb.jpg' %>"
-     alt="Tips 10 Vevstol - Vedlikehold av ratt"
-     class="image-r" />
+<%= render "cool_image",
+  src: 'defekt_ratt',
+  size: '150x114',
+  desc: 'Tips 10 Vevstol - Vedlikehold av ratt',
+  thumb_class: 'image-r' %>
 
 <p class="block">
   På det tilhørende bilde kan du se at rattet har gått i stykker.
@@ -349,9 +371,11 @@ categories: product
 
 <h2 class="is-size-2">Tips 11 Vevstol - Beskytte renningen mot slitasje</h2>
 
-<img src="<%= relative_url '/images/beskytte_renning_thumb.jpg' %>"
-     alt="Tips 11 Vevstol - Beskytte renningen mot slitasje"
-     class="image-l" />
+<%= render "cool_image",
+  src: 'beskytte_renning',
+  size: '150x114',
+  desc: 'Tips 11 Vevstol - Beskytte renningen mot slitasje',
+  thumb_class: 'image-l' %>
 
 <p class="block">
   På steder hvor det er mye trafikk forbi strekkbommen,
