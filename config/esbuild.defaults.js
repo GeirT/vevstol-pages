@@ -292,7 +292,7 @@ module.exports = (outputFolder, esbuildOptions) => {
     entryPoints: ["frontend/javascript/index.js"],
     entryNames: "[dir]/[name].[hash]",
     outdir: path.join(process.cwd(), `${outputFolder}/_bridgetown/static`),
-    publicPath: "/_bridgetown/static",
+    publicPath: "/vevstol-pages/_bridgetown/static",
     metafile: true,
     ...esbuildOptions,
   }).catch(() => process.exit(1))
