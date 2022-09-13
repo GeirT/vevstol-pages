@@ -88,7 +88,4 @@ categories: product
 
 <h2 class="is-size-2">Se video av vevfoten</h2>
 
-<object width="425" height="350">
-  <param name="movie" value="http://www.youtube.com/v/kJSbNoJ9Z00" />
-  <embed src="http://www.youtube.com/v/kJSbNoJ9Z00" type="application/x-shockwave-flash" width="425" height="350" />
-</object>
+<iframe width="425" height="350" src="https://www.youtube.com/embed/kJSbNoJ9Z00" title="Fot til vevstol" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
